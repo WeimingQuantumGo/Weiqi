@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RuleForm</class>
+ <widget class="QWidget" name="RuleForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:18px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:xx-large; font-weight:600;&quot;&gt;未名量子围棋简介 &lt;br /&gt;Introduction to Weiming Quantum Weiqi &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:medium; font-weight:600;&quot;&gt;未名量子围棋是在普通的围棋基础上，引入了量子力学的思想与概念而创造出的一款新的棋类游戏，玩法与经典围棋相比更有乐趣性也更具挑战性，让玩家在游戏中感受到量子世界的奇妙。根据吴飙、陈汉博、罗智康的理论[arXiv: 2004.08272; Science China Information Science(2020)] ，原则上可以设计无穷多种量子围棋。下面的规则是根据简单和实用的原则制定的，称为未名量子围棋规则。 &lt;br /&gt;Weiming Quantum Weiqi is a new board game created by applying the ideas and concepts of quantum mechanics to the ordinary game of Go (or Weiqi as called in Chinese). Compared with the classic Go, quantum Weiqi is more fun and more challenging, allowing players to experience the magic of the quantum world in the game. According to the theory of Wu Biao, Chen Hanbo and Luo Zhikang [arXiv: 2004.08272; Science China Information Science(2020)], an infinite varieties of quantum Weiqi can be designed in principle. The following rules are based on the principle of simplicity and practicality. We call them Weiming Quantum Weiqi rules. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:x-large; font-weight:600;&quot;&gt;基本规则 &lt;br /&gt;Basic Rules &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;与普通围棋相同，量子围棋采用回合制，分为白方与黑方进行博弈，黑方先下。 &lt;br /&gt;Like in the ordinary Go, the two players in a quantum Weiqi game take turn to play and place stones on the board, with the black side playing first. &lt;/p&gt;
+&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-size:large; font-weight:600;&quot; style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large;&quot;&gt;落子的方法 &lt;br /&gt;Moves &lt;/span&gt;&lt;/li&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;区别于围棋只有单一的落子方法，量子围棋落子的方法更加复杂，在一次落子中，玩家可选择以下三种落子方法的一种： &lt;br /&gt;In the game of classical Go, there is only one move, placing a stone at a desired position. In the game of quantum Weiqi, one is allowed to place a stone simultaneously at two or more than two positions. &lt;/p&gt;
+&lt;ol type=&quot;i&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;经典步：与围棋相同，落子后一枚本方颜色的棋子占据了某一格（非禁着点），具有100%的确定性。 &lt;br /&gt;Classic move: As in Go, a stone is placed at a point (a point that is not forbidden), with 100% certainty. &lt;/li&gt;
+&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;叠加步：玩家可选择同时在两个位置（非禁着点）同时落子，但这两个位置的棋子均是以概率形式出现，因此本质上仍然是落了一个子，只是这个子有概率P出现在一处，以概率1-P出现在另一处，概率P有三种模式可以调节（50%：50%，67%：33%，75%：25%）。这种落子法可以看成是量子力学中两个波函数的叠加: 此时同时存在着两盘棋，一盘中棋子落在了一处，另一盘中棋子落在了另一处，而两盘棋各自具有一定的概率。P=50%的例子如图所示。由于每下一次叠加步，棋盘数会增加，为减少游戏复杂程度，我们要求场上的棋盘数小于或等于8盘。 &lt;br /&gt;Superposition move: a stone is placed at two positions (not forbidden) at the same time with probabilities. In other words, the stone has a probability P at one position and probability 1 - P at the other position. Three different probabilities P, 1-P (50%, 50%; 67%, 33%; 75%, 25%) are allowed. This reflects the superposition of two wave functions in quantum mechanics. probability. An example of P=50% is shown in the figure, where two games are going on simultaneously. Since the number of games increases with each superposition move, to reduce the complexity of the game, the number of games is set to be less than or equal to 8. &lt;/li&gt;
+&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;纠缠步：针对叠加步，有三种应对模式，统称纠缠步。第一种是11-11模式：两个落子点分别针对叠加步中的两个落子点； 第二种是11-12模式，有三个落子点，其中一个针对叠加步中的一个落子点，另外两个针对叠加步中的另外一个落子点；第三种是11-22模式，有四个落子点，针对叠加步中的每一个落子点应对两个落子点。 &lt;br /&gt;Entangled move: In response to the superposition move, there are three moves collectively called entangled move. The first is the 11-11 mode: the stone is place at two positions with respective to the two positions in the superposition move. The second is the 11-12 mode, where a stone is placed at three position simultaneously: two of them are for one position in the superposition move and the third is for the other position in the superposition move. The third mode is 11-22, where one stone is placed at four positions simultaneously with two position for each position in the superposition move. &lt;/li&gt;
+&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;分治步：当对方下完一步棋后，可能同时存在n盘棋；分治步是针对每一个棋盘分别进行操作的步骤，选择每一个棋盘下一经典步或者下一叠加步。分治步在理想的量子计算机上并不存在，在本游戏中由于棋盘个数的限制，可以被允许存在，且可以很容易看出分治步包含了所有的纠缠步。下面对上面两棋盘的情况分别列出了三种分治步 &lt;br /&gt;Game-wise move: When the other side makes a move, n gamess may exist at the same time. Game-wise move is a move that places the stone at different position for each game. For each game, the move can be a classical move or a superposition move. The game-wise move is not allowed if the quantum Weiqi is played on a real quantum computer, but is allowed in this Weiming Quantum Weiqi due to the limitation on the number of games. &lt;/li&gt;&lt;/ol&gt;
+&lt;li style=&quot; font-size:large; font-weight:600;&quot; style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large;&quot;&gt;吃子规则 &lt;br /&gt;Capture of stone &lt;/span&gt;&lt;/li&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;未名量子围棋的吃子规则和经典有所不同，如果在某一步之后，任何一个棋盘出现了有子没有“气”的现象，那么提走所有棋盘上和这个没有气的子在同一步落的子。 &lt;br /&gt;Weiming Quantum Go’s rules for capturing stones are different from the classical Go. If after a move, the stone is out of“qi”and captured in any of the games, the stone is captured and removed from all the games. &lt;/p&gt;
+&lt;li style=&quot; font-size:large; font-weight:600;&quot; style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large;&quot;&gt;打劫规则 &lt;br /&gt;Ko rule &lt;/span&gt;&lt;/li&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;未名量子围棋的打劫和经典围棋一样 &lt;br /&gt;Weiming Quantum Weiqi has the same Ko rule as the classical Go &lt;/p&gt;
+&lt;li style=&quot; font-size:large; font-weight:600;&quot; style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large;&quot;&gt;胜负规则 &lt;br /&gt;Winning Rules &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;在两人均认为棋局结束后，点击“数目”按钮，系统会将所有棋盘按照经典方式数目，再按照概率加权平均为最后的目数，胜负也由此确定。 &lt;br /&gt;When the play ends, count stones of a given color in each game and add them together with weights according the probability of each game. The averaged stone number determines who wins. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

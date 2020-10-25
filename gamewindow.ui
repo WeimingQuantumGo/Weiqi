@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GameWindow</class>
+ <widget class="QMainWindow" name="GameWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+    <addaction name="actionwithdraw"/>
+    <addaction name="actiongamewise_on"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionHow_to_play"/>
+    <addaction name="actionWeiming_Quantum_Go_Rules"/>
+   </widget>
+   <addaction name="menuSettings"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionwithdraw">
+   <property name="text">
+    <string>withdraw</string>
+   </property>
+  </action>
+  <action name="actiongamewise_on">
+   <property name="text">
+    <string>gamewise on</string>
+   </property>
+  </action>
+  <action name="actionHow_to_play">
+   <property name="text">
+    <string>How to play</string>
+   </property>
+  </action>
+  <action name="actionWeiming_Quantum_Go_Rules">
+   <property name="text">
+    <string>Weiming Quantum Go Rules</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
