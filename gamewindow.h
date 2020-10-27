@@ -3,6 +3,7 @@
 #include "game.h"
 #include "helpform.h"
 #include "ruleform.h"
+#include "aboutform.h"
 #include <QMainWindow>
 #include <QKeyEvent>
 #include <QLabel>
@@ -113,6 +114,8 @@ private slots:
     void on_actionHow_to_play_triggered();
 
     void on_actionWeiming_Quantum_Go_Rules_triggered();
+
+    void on_actionWeiming_Quantum_Go_triggered();
 
 private:
     Ui::GameWindow *ui;

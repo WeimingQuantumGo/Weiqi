@@ -344,3 +344,9 @@ void GameWindow::on_actionWeiming_Quantum_Go_Rules_triggered()
     RuleForm * ruleForm = new RuleForm();
     ruleForm->show();
 }
+
+void GameWindow::on_actionWeiming_Quantum_Go_triggered()
+{
+    AboutForm * aboutForm = new AboutForm();
+    aboutForm->show();
+}

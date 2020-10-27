@@ -21,6 +21,8 @@ private slots:
 
     void on_actionNew_Game_triggered();
 
+    void on_actionWeiming_Quantum_Go_triggered();
+
 private:
     Ui::MainWindow *ui;
 };

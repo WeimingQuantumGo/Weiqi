@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "gamewindow.h"
 #include "ui_mainwindow.h"
+#include "aboutform.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -27,4 +28,10 @@ void MainWindow::on_NewGameButton_clicked()
 void MainWindow::on_actionNew_Game_triggered()
 {
     on_NewGameButton_clicked();
+}
+
+void MainWindow::on_actionWeiming_Quantum_Go_triggered()
+{
+    AboutForm * aboutForm = new AboutForm();
+    aboutForm->show();
 }

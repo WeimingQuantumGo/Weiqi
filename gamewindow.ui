@@ -38,8 +38,15 @@
     <addaction name="actionHow_to_play"/>
     <addaction name="actionWeiming_Quantum_Go_Rules"/>
    </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionWeiming_Quantum_Go"/>
+   </widget>
    <addaction name="menuSettings"/>
    <addaction name="menuHelp"/>
+   <addaction name="menuAbout"/>
   </widget>
   <action name="actionwithdraw">
    <property name="text">
@@ -59,6 +66,11 @@
   <action name="actionWeiming_Quantum_Go_Rules">
    <property name="text">
     <string>Weiming Quantum Go Rules</string>
+   </property>
+  </action>
+  <action name="actionWeiming_Quantum_Go">
+   <property name="text">
+    <string>Weiming Quantum Go</string>
    </property>
   </action>
  </widget>

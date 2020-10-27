@@ -32,7 +32,8 @@ SOURCES += \
     game.cpp \
     gamewindow.cpp \
     helpform.cpp \
-    ruleform.cpp
+    ruleform.cpp \
+    aboutform.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -43,10 +44,13 @@ HEADERS += \
     game.h \
     gamewindow.h \
     helpform.h \
-    ruleform.h
+    ruleform.h \
+    aboutform.h \
+    aboutform.h
 
 FORMS += \
         mainwindow.ui \
     gamewindow.ui \
     helpform.ui \
-    ruleform.ui
+    ruleform.ui \
+    aboutform.ui

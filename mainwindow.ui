@@ -43,7 +43,14 @@
     </property>
     <addaction name="actionNew_Game"/>
    </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionWeiming_Quantum_Go"/>
+   </widget>
    <addaction name="menuMenu"/>
+   <addaction name="menuAbout"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNew_Game">
@@ -52,6 +59,11 @@
    </property>
    <property name="shortcut">
     <string>N</string>
+   </property>
+  </action>
+  <action name="actionWeiming_Quantum_Go">
+   <property name="text">
+    <string>Weiming Quantum Go</string>
    </property>
   </action>
  </widget>
